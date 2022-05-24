@@ -1,0 +1,15 @@
+policy:
+  approval:
+    - security and dev
+
+    
+
+approval_rules:
+  - name: security and dev
+    requires:
+      count: 2
+      teams: ["firstdaysofabetternation/security","firstdaysofabetternation/dev"]
+    options:
+      request_review:
+        enabled: true
+        mode: teams
