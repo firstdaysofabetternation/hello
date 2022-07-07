@@ -7,7 +7,7 @@ policy:
 approval_rules:
   - name: security and dev
     requires:
-      count: 2
+      count: 1
       teams: ["firstdaysofabetternation/security","firstdaysofabetternation/dev"]
     options:
       request_review:
